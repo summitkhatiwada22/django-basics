@@ -1,0 +1,16 @@
+<!-- Master template is for the blocks that are repetitive in all pages -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <!-- block is for django to replate with content from other sources -->
+  <title>{% block title %}{% endblock %}</title>
+</head>
+<body>
+
+{% block content %}
+{% endblock %}
+
+</body>
+</html>
