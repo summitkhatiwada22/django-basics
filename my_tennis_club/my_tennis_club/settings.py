@@ -43,7 +43,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     
     # let the app settings know that you have created new app functionality called members
-    'members'
+    'members',
 ]
 
 MIDDLEWARE = [

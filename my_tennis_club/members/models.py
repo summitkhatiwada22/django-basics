@@ -7,4 +7,9 @@ class Member(models.Model):
     phone = models.IntegerField(null=True)
     joined_date = models.DateField(null=True)
 
+    # one way to show the detail in django admin
+    # def __str__(self):
+        #return f"{self.firstname} {self.lastname}"
+    # the other way is done in the admin.py itself
+
 
