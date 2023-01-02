@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/4.1/ref/settings/
 
 from pathlib import Path
 
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -23,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-c9#&h*zhp0vyk3vvyk-78)^%99&i9gfw0od26&5vvh0&k+(c+8'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 # when DEBUG = False, Django requires you to specify the hosts you will allow this Django project to run from.
 # in production, this should be replaced with a proper domain name:
